@@ -1,5 +1,50 @@
-body {
+/*body {
   width: 100%;
   height: 100%;
   margin: 0;
+}*/
+/*style the header section to align center*/
+header{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+/*center the links with a padding of 10px in the left and right*/
+header nav a{
+  background: grey;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+/*display flex*/
+#featured-property{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+/*center the image and caption*/
+#featured-property figure{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+/*reduce the font size of the image caption*/
+#featured-property figure figcaption{
+  font-size: 0.75rem;
+}
+/*center the paragraph text*/
+#featured-property p{
+  width: 800px;
+  text-align: center;
+  margin: 10px;
+}
+/*align its div horizontally*/
+#details{
+  display: flex;
+  justify-content: space-around;
+  background: red;
+}
+/*make each div have the same space around*/
+#details div{
+  text-align: center;
+  flex: 25%;
 }
